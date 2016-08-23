@@ -1,2 +1,3 @@
 # DZAppbyme
-more SDKs ,for example,QQ,WeiBoSDK,FaceBookSDK 
+
+a demo for every,this demo so easy ,also empty!

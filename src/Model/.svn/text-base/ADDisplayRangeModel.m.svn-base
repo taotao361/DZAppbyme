@@ -1,0 +1,18 @@
+//
+//  ADDisplayRangeModel.m
+//  Discuz_phpwind
+//
+//  Created by aabbcc on 16/1/6.
+//  Copyright © 2016年 安米网. All rights reserved.
+//
+
+#import "ADDisplayRangeModel.h"
+
+@implementation ADDisplayRangeModel
+
+@end
+
+
+@implementation ADResultModel
+
+@end

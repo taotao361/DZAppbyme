@@ -1,0 +1,30 @@
+//
+//  ADDisplayRangeModel.h
+//  Discuz_phpwind
+//
+//  Created by aabbcc on 16/1/6.
+//  Copyright © 2016年 安米网. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "ADBaseModel.h"
+#import "ADModel.h"
+@class ADResultModel;
+@interface ADDisplayRangeModel : ADBaseModel
+
+@property (nonatomic, strong) ADResultModel *resultModel;
+
+@end
+
+
+
+
+
+@interface ADResultModel : NSObject
+/**
+ *  包含： haveAd  screen
+ */
+@property (nonatomic, strong) NSDictionary *result;
+@property (nonatomic, strong) ADModel *adModel;
+
+@end
