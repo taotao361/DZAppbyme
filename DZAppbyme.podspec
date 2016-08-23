@@ -9,18 +9,16 @@
 Pod::Spec.new do |s|
 
   s.name         = "DZAppbyme"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "more SDKs for users who has shareing with thire APP"
   s.description  = "a demo for everyone,but I only try to push the demo to gits"
   s.homepage     = "https://github.com/taotao361"
   s.license      = 'MIT'
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author         = { "taotao361" => "yangxutao361@163.com" }
-  # s.platform     = :ios
     s.platform     = :ios, "7.0"
     s.ios.deployment_target = "7.0"
 
-  s.source       = { :git => "https://github.com/taotao361/DZAppbyme.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/taotao361/DZAppbyme.git", :tag => "0.0.2" }
   s.source_files  = "src/**/*"
   s.exclude_files = "DZAppbyme/Exclude"
   # s.resource  = "icon.png"
